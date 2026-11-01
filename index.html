@@ -1,2 +1,85 @@
 <link rel="stylesheet" href="./output.css">
-<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./style.css"><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hossain Murad — UI/UX Designer and aspiring full-stack developer. Explore selected projects, skills and contact information." />
+  <title>Hossain Murad — Designer & Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { ink:'#101512', panel:'#171f1a', muted:'#9aa69d', mint:'#b9f36b', line:'#29342d' }, fontFamily: { sans:['Manrope','sans-serif'], mono:['DM Mono','monospace'] } } } }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-ink text-white font-sans antialiased">
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+  <header class="site-header" id="top">
+    <nav class="nav-wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Hossain Murad home"><span class="brand-mark">HM<span>.</span></span><span class="brand-name">HOSSAIN MURAD</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a>
+        <a href="#contact" class="nav-contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR LEARNING & COLLABORATION</div>
+        <h1>Designing useful<br>digital <span class="highlight">experiences.</span></h1>
+        <p class="hero-lead">I'm <strong>Hossain Murad</strong> — a UI/UX designer exploring the world of front-end and full-stack development. I enjoy turning thoughtful ideas into clear, engaging digital experiences.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↗</span></a><a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN BANGLADESH</span><span class="meta-line"></span><span>DESIGN · CODE · CURIOSITY</span></div>
+      </div>
+      <div class="hero-visual" aria-label="Abstract creative portrait placeholder">
+        <div class="visual-top"><span>CREATIVE PROFILE / 01</span><span>2026</span></div>
+        <div class="portrait-frame"><div class="portrait-grid"></div><div class="portrait-orbit orbit-a"></div><div class="portrait-orbit orbit-b"></div><div class="portrait-core"><span>HM</span></div><div class="portrait-caption">CURIOUS<br>BY DESIGN<span>✳</span></div></div>
+        <div class="visual-bottom"><span>IDEAS INTO INTERFACES</span><span class="visual-arrow">↗</span></div>
+        <div class="floating-note"><span class="note-icon">✳</span><span>Always learning<br><b>Always building</b></span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-shell section-block" id="about">
+      <div class="section-kicker"><span>01 / ABOUT</span><span class="kicker-rule"></span></div>
+      <div class="about-grid"><h2>Curiosity is where<br><span class="muted-heading">good work begins.</span></h2><div class="about-copy"><p class="large-copy">I’m interested in the intersection of design, technology and problem-solving.</p><p>My journey is focused on building a strong foundation in UI/UX design and modern web development. I work with Figma to explore interfaces, and I’m developing my skills in HTML, CSS, Tailwind CSS and JavaScript.</p><p>I believe a good digital product should feel intuitive, look considered and solve a real problem. My long-term goal is to grow into a designer who can also bring ideas to life through code.</p><div class="about-tags"><span>UI/UX DESIGN</span><span>FRONT-END DEVELOPMENT</span><span>CONTINUOUS LEARNING</span></div></div></div>
+    </section>
+
+    <section class="section-shell section-block" id="skills">
+      <div class="section-kicker"><span>02 / SKILLS</span><span class="kicker-rule"></span></div>
+      <div class="section-heading-row"><h2>Tools I use.<br><span class="muted-heading">Skills I’m growing.</span></h2><p>A practical toolkit for designing, building and improving digital experiences.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-number">01</div><div class="skill-icon">✳</div><h3>Design</h3><p>Planning and shaping clear, user-friendly interfaces.</p><div class="skill-pills"><span>Figma</span><span>Wireframing</span><span>UI Design</span><span>Prototyping</span></div></article>
+        <article class="skill-card"><div class="skill-number">02</div><div class="skill-icon code-icon">&lt;/&gt;</div><h3>Front-end</h3><p>Building responsive layouts and learning interactive web experiences.</p><div class="skill-pills"><span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>JavaScript · Learning</span></div></article>
+        <article class="skill-card"><div class="skill-number">03</div><div class="skill-icon git-icon">⌘</div><h3>Workflow</h3><p>Organising projects and developing a reliable build process.</p><div class="skill-pills"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Responsive Design</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-shell section-block" id="projects">
+      <div class="section-kicker"><span>03 / SELECTED PROJECTS</span><span class="kicker-rule"></span></div>
+      <div class="section-heading-row"><h2>Ideas taking<br><span class="muted-heading">a digital shape.</span></h2><p>A selection of learning projects and product concepts. These are works in progress, built to explore design and development.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured"><div class="project-art medha-art"><div class="art-top"><span>MEDHA / 01</span><span>PRODUCT CONCEPT</span></div><div class="medha-window"><div class="window-dots"><i></i><i></i><i></i></div><div class="medha-title">Prepare with<br><em>purpose.</em></div><div class="mock-test"><span>LIVE MODEL TEST</span><b>47th BCS Preliminary</b><small>Practice · Track · Improve</small></div><div class="mock-side">M</div></div><span class="art-index">01</span></div><div class="project-info"><div><span class="project-type">EDTECH · UI/UX CONCEPT</span><h3>MedhaApp</h3><p>A concept for a Bangladeshi competitive-exam preparation platform, focused on practice, progress tracking and a clear learning journey.</p></div><a class="project-link" href="#contact" aria-label="Ask about MedhaApp">↗</a></div></article>
+        <article class="project-card"><div class="project-art cow-art"><div class="art-top"><span>COWAPP / 02</span><span>PRODUCT CONCEPT</span></div><div class="cow-orbit"><div class="cow-circle">C<span>✳</span></div><div class="cow-label label-one">FARM<br>MANAGEMENT</div><div class="cow-label label-two">DAIRY<br>INSIGHTS</div></div><span class="art-index">02</span></div><div class="project-info"><div><span class="project-type">AGRITECH · PRODUCT IDEA</span><h3>CowApp</h3><p>A livestock-management concept exploring how simple digital tools can support small dairy and cattle farms.</p></div><a class="project-link" href="#contact" aria-label="Ask about CowApp">↗</a></div></article>
+        <article class="project-card"><div class="project-art portfolio-art"><div class="art-top"><span>PORTFOLIO / 03</span><span>WEB DEVELOPMENT</span></div><div class="browser-card"><div class="browser-bar"><i></i><i></i><i></i></div><div class="browser-content"><span>HELLO, I'M MURAD</span><b>Design meets<br><em>development.</em></b><div class="browser-button">VIEW WORK ↗</div></div></div><span class="art-index">03</span></div><div class="project-info"><div><span class="project-type">HTML · CSS · TAILWIND</span><h3>Personal Portfolio</h3><p>A responsive portfolio website presenting my skills, interests, learning journey and selected project concepts.</p></div><a class="project-link" href="#home" aria-label="Back to portfolio home">↗</a></div></article>
+      </div>
+      <p class="project-note">* Project concepts are presented for learning and portfolio purposes. Live demos and source-code links can be added as projects are published.</p>
+    </section>
+
+    <section class="section-shell section-block" id="education">
+      <div class="section-kicker"><span>04 / EDUCATION</span><span class="kicker-rule"></span></div>
+      <div class="education-grid"><h2>Learning is<br><span class="muted-heading">a continuous process.</span></h2><div class="timeline"><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">CURRENT FOCUS</div><h3>Web Development</h3><p>Independent learning — HTML, CSS, Tailwind CSS, JavaScript and the foundations of modern web development.</p></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">ONGOING</div><h3>UI/UX Design</h3><p>Practical exploration of interface design, layout systems, prototyping and design workflows using Figma.</p></article><article class="timeline-item"><span class="timeline-dot"></span><div class="timeline-date">ADD YOUR DETAILS</div><h3>Academic Background</h3><p>Replace this entry with your degree, institution and graduation year.</p></article></div></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="section-shell contact-inner"><div class="section-kicker"><span>05 / CONTACT</span><span class="kicker-rule"></span></div><div class="contact-grid"><div><p class="contact-pretitle">HAVE A PROJECT OR AN IDEA?</p><h2>Let's make<br><span>something useful.</span></h2><p class="contact-description">I’m open to learning opportunities, thoughtful collaborations and conversations about design and technology.</p><a class="email-link" href="mailto:your.email@example.com">your.email@example.com <span>↗</span></a><p class="email-hint">Replace this with your professional email address.</p><div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div><form class="contact-form" id="contactForm"><label for="name">YOUR NAME</label><input id="name" name="name" type="text" placeholder="How should I address you?" required><label for="email">EMAIL ADDRESS</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="message">YOUR MESSAGE</label><textarea id="message" name="message" rows="4" placeholder="Tell me a little about it..." required></textarea><button class="button button-primary form-button" type="submit">Prepare email <span>↗</span></button><p class="form-note" id="formNote">This form opens your email app; it does not store submissions.</p></form></div></div></section>
+  </main>
+  <footer class="footer"><div class="section-shell footer-inner"><a class="brand" href="#home"><span class="brand-mark">HM<span>.</span></span><span class="brand-name">HOSSAIN MURAD</span></a><span class="footer-copy">© <span id="year"></span> Hossain Murad. Designed with curiosity.</span><a class="back-top" href="#top">BACK TO TOP ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
